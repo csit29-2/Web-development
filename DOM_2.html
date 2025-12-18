@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+        body{
+            background-color: aqua;
+        }
+        h3,p{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<h3>Live Clock</h3>
+<p id="clock"></p>
+<script>
+    function showTime() {
+        var time = new Date();
+        document.getElementById("clock").innerHTML = time;
+    }
+    setInterval(showTime, 1000);
+</script>
+</body>
+</html>

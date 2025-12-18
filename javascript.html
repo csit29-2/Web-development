@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript BAsics Example</h2>
+<p id="output"></p>
+<script>
+//Variables
+let name = "Alica";
+let age = 20;
+let isEnrolled = true;
+
+//Conditional Statement
+if (age >= 18) {
+    console.log(name + " is an adult.");
+} else {
+    console.log(name + "is a minor.");
+}
+
+//Loop Example
+let text = "";
+for (let i = 1; i <= 5; i++) {
+    text =text + "Iteration " + i +"<br>";
+}
+
+document.getElementById("output").innerHTML = text;
+</script>
+</body>
+</html>
