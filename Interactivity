@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>Enable or disable password interactivity</h3>
+    <label><b>Password: </b></label>
+    <input type="password" id="pwd">
+
+    <script>       
+        function toggles() {
+            let input = document.getElementById("pd");
+            if (input.type === "Password") {
+                input.type = "text";
+            } else {
+                input.type = "Password";
+        }
+        }
+    </script>
+</body>
+</html>
