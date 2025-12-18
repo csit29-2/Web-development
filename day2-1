@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .header {
+        background-color: blue;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+    .content {
+        background-color: [indianered];
+        padding: 10px;
+        margin: 10px;
+    }
+    .factor {
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        padding: 6px;
+    }
+</style>
+</head>
+<body>
+    <div class="header">my website</div>
+    <div class="content">
+        <h<>main content</h<>
+            <p>This is the content area</p>
+        </div>
+         <div class="footer">@2027 My website</div>
+
+</body>
+</html>
