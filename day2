@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Exmple</title>
+        <style>
+            text-style{
+                background-color: lightblue;
+                color: darkblue;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="text-style">
+            This is a css styled paragraph.
+        </p>
+    </body>
+</html>
