@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Dynamic Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="checkLogin()">
+
+<header>
+    <div class="header-container">
+        <h1>Sample Dynamic Website</h1>
+        <button onclick="logout()" class="logout-btn">Logout</button>
+
+        <nav>
+            <ul>
+              <li><a href="#" id="home" onclick="loadPage('home')">Home</a></li>  
+              <li><a href="#" id="about" onclick="loadPage('about')">About</a></li>
+              <li><a href="#" id="services" onclick="loadPage('services')"></a>Services</li>
+              <li><a href="#" id="contact" onclick="loadPage('contact')"></a>Contact</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<main>
+    <section id="content"></section>
+</main>
+
+<footer>
+    <P>@ 2025 My Sample Dynamic Website</P>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

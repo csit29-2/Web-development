@@ -1,0 +1,84 @@
+.login-box {
+    width: 300px;
+    margin: 120px auto;
+    padding: 20px;
+    background: #ee3838;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 95%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.section-img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: rgb(70, 235, 235);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+header {
+    background-color: cadetblue;
+    color: rgb(12, 9, 233);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.home-bg {
+    background-color: rgb(0, 113, 128);
+}
+
+.about-bg {
+    background-color: lightcoral;
+}
+
+.services-bg {
+    background-color: rgb(14, 95, 170);
+}
+
+.contact-bg {
+    background-color: aquamarine;
+}
+
+body {
+    transition: background-color 0.6s ease;
+}
